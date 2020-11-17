@@ -1,9 +1,13 @@
-import React from 'react';
+import PostsList from './PostsList';
+import PostInput from './PostInput';
+
 const PostManager = () => {
   return (
-    <div>
+    <>
       <h1>PostManager</h1>
-    </div>
+      {/* <PostsList />
+      <PostInput /> */}
+    </>
   );
 };
 export default PostManager;
